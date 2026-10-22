@@ -1,4 +1,4 @@
-# Working on deadlock_asta
+# Working on deadlock_astra
 
 ## Setup
 

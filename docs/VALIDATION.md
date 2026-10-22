@@ -33,7 +33,9 @@ The rendered handgun/corridor, health/ammunition HUD, and inventory were inspect
 
 The **humanoid zombie model update** was also checked on 2026-10-14: all **68 checks passed again in both headless and rendered runs**. Front, three-quarter walking, attack, and collapsed poses were rendered and visually inspected in the corridor. The new anatomy and animation live in `scripts/zombie_model.gd`; the original collision capsule, damage, attack timing, and pursuit rules are retained. See [the updated zombie preview](zombie.png).
 
-On **2026-10-15**, the project was renamed to **deadlock_asta**. The renamed project launched in both headless and rendered modes; the title screen was captured and visually checked for text fit at 1280 × 720, and [title.png](title.png) was refreshed. The rendered capture exited successfully without errors. This naming-only change did not repeat the full gameplay suite; the previous 68/68 results above remain the latest full integration run.
+On **2026-10-15**, the project was renamed for the Astra experiment. The renamed project launched in both headless and rendered modes; the title screen was captured and visually checked for text fit at 1280 × 720, and [title.png](title.png) was refreshed. The rendered capture exited successfully without errors. This naming-only change did not repeat the full gameplay suite; the previous 68/68 results above were the latest full integration run at that point.
+
+On **2026-10-22**, the spelling was corrected to **deadlock_astra** in the repository name, project settings, scene name, UI, and documentation. The headless import and **68/68 headless integration checks passed**. The title screen was rendered successfully, visually checked at 1280 × 720, and [title.png](title.png) was refreshed. Two rendered integration attempts returned **58/68** and **65/68**, with differing failures around title input and subsequent gameplay state; window-focus interference is suspected but unconfirmed. No successful full rendered integration run is claimed for this correction. Gameplay logic was unchanged.
 
 ## Not verified in this pass
 

@@ -1,4 +1,4 @@
-"""Regenerate deadlock_asta's original synthesized sound effects (Python stdlib only)."""
+"""Regenerate deadlock_astra's original synthesized sound effects (Python stdlib only)."""
 
 from pathlib import Path
 import math
